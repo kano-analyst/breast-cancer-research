@@ -30,10 +30,10 @@ Breast cancer remains a critical global health challenge, necessitating reliable
  ```bash
    pip install -r requirements.txt
 ```
-3. Download the datasets (see "Datasets" section) and place them in the data/ folder.
+3. Download the datasets (see "**`datasets/`**" section) and place them in the **`data/`** folder.
 
 ### Running the Code
-Open the Jupyter notebook or Python script in the code/ directory (e.g., breast_cancer_classification.ipynb).
+Open the Jupyter notebook or Python script in the **`code/`** directory (e.g., **`breast_cancer_classification.ipynb`**).
 Follow the instructions within to preprocess data, train models, and generate results.
 ### Datasets
 This study uses two publicly available datasets:
