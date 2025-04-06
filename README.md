@@ -28,5 +28,25 @@ Breast cancer remains a critical global health challenge, necessitating reliable
    cd BreastCancerClassification# breast-cancer-research
 2.Install Dependecies
  ```bash
-   pip install -r requirements.txt
-3.Download the datasets (see "Datasets" section) and place them in the data/ folder.
+   pip install -r requirements.txt=
+Download the datasets (see "Datasets" section) and place them in the data/ folder.
+Running the Code
+Open the Jupyter notebook or Python script in the code/ directory (e.g., breast_cancer_classification.ipynb).
+Follow the instructions within to preprocess data, train models, and generate results.
+Datasets
+This study uses two publicly available datasets:
+
+Wisconsin Breast Cancer Dataset (WBDC)
+Source: UCI Machine Learning Repository
+Description: Diagnostic data with 569 instances and 32 features.
+Coimbra Breast Cancer Dataset
+Source: UCI Machine Learning Repository
+Description: Clinical data with 116 instances and 10 features.
+Note: Due to GitHub size limits, datasets are not included in this repository. Please download them from the links above and place them in the data/ directory.
+
+Usage
+Preprocessing: Scripts clean and prepare the datasets for model training.
+Model Training: Train Logistic Regression, Decision Trees, Random Forest, and CatBoost models.
+Evaluation: Assess models using metrics like Accuracy, Precision, and RMSE.
+Interpretability: Use LIME to generate explanations for model predictions (see results/ for outputs).
+Example command to run the main script (if applicable):
