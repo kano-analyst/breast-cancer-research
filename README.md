@@ -29,28 +29,32 @@ Breast cancer remains a critical global health challenge, necessitating reliable
 2.Install Dependecies
  ```bash
    pip install -r requirements.txt
-Download the datasets (see "Datasets" section) and place them in the data/ folder.
-Running the Code
+```
+3. Download the datasets (see "Datasets" section) and place them in the data/ folder.
+
+### Running the Code
 Open the Jupyter notebook or Python script in the code/ directory (e.g., breast_cancer_classification.ipynb).
 Follow the instructions within to preprocess data, train models, and generate results.
-Datasets
+### Datasets
 This study uses two publicly available datasets:
 
-Wisconsin Breast Cancer Dataset (WBDC)
-Source: UCI Machine Learning Repository
-Description: Diagnostic data with 569 instances and 32 features.
-Coimbra Breast Cancer Dataset
-Source: UCI Machine Learning Repository
-Description: Clinical data with 116 instances and 10 features.
+1. Wisconsin Breast Cancer Dataset (WBDC)
+   Source: UCI Machine Learning Repository
+   Description: Diagnostic data with 569 instances and 32 features.
+2. Coimbra Breast Cancer Dataset
+   Source: UCI Machine Learning Repository
+   Description: Clinical data with 116 instances and 10 features.
 Note: Due to GitHub size limits, datasets are not included in this repository. Please download them from the links above and place them in the data/ directory.
-Usage
+### Usage
 Preprocessing: Scripts clean and prepare the datasets for model training.
 Model Training: Train Logistic Regression, Decision Trees, Random Forest, and CatBoost models.
 Evaluation: Assess models using metrics like Accuracy, Precision, and RMSE.
 Interpretability: Use LIME to generate explanations for model predictions (see results/ for outputs).
 Example command to run the main script (if applicable):
+```bash
 python code/main.py
-Results
+```
+### Results
 Key findings:
 
 Logistic Regression outperformed other models with:
@@ -59,18 +63,18 @@ Coimbra: Accuracy = 0.84, Precision = 0.85
 LIME explanations enhance model transparency, making AI diagnostics more trustworthy.
 Detailed results, including tables and visualizations, are available in the results/ directory.
 
-Citation
+### Citation
 If you use this code or research in your work, please cite our paper:
 
 Garba, A.T., Hamza, H.S. (2025). "Interpretable Machine Learning Approach for Breast Cancer Classification." Human Centric Intelligent Systems Journal (Under Review).
 
-Contributing
+### Contributing
 We welcome contributions! Please fork the repository, make changes, and submit a pull request. For major updates, open an issue first to discuss your ideas.
 
-Contact
+### Contact
 For questions or collaboration inquiries, reach out to:
 
 Ahmad Tijjani Garba: atgarba.it@buk.edu.ng
 Hafsah Shuaibu Hamza: hafsatshuaibuhamza@gmail.com
-License
+### License
 This project is licensed under the MIT License—see the LICENSE file for details (to be added if applicable).
