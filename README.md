@@ -24,6 +24,6 @@ Breast cancer remains a critical global health challenge, necessitating reliable
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/BreastCancerClassification.git
+   git clone https://github.com/kano-analyst/breast-cancer-research.git
    cd BreastCancerClassification# breast-cancer-research
 Research
