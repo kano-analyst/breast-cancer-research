@@ -26,4 +26,7 @@ Breast cancer remains a critical global health challenge, necessitating reliable
    ```bash
    git clone https://github.com/kano-analyst/breast-cancer-research.git
    cd BreastCancerClassification# breast-cancer-research
-Research
+2.Install Dependecies
+ ```bash
+   pip install -r requirements.txt
+3.Download the datasets (see "Datasets" section) and place them in the data/ folder.
