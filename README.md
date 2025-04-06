@@ -9,7 +9,7 @@ Breast cancer remains a critical global health challenge, necessitating reliable
 ## Repository Contents
 
 - **`code/`**: Python scripts and Jupyter notebooks for data preprocessing, model training, evaluation, and LIME explanations.
-- **`data/`**: Placeholder directory for datasets (not uploaded due to size; see "Datasets" section for links).
+- **`data/`**: Placeholder directory for datasets.
 - **`results/`**: Model performance metrics, plots, and LIME explanation outputs.
 - **`docs/`**: Supplementary materials, including the manuscript draft (if applicable) and this README.
 - **`requirements.txt`**: List of Python dependencies required to run the code.
